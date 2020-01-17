@@ -1,0 +1,46 @@
+
+.gallery {
+  padding: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fountain img {
+  width: 200px;
+    height: auto;
+}
+
+.palace img {
+  width: 200px;
+    height: auto;
+}
+
+.building img {
+  width: 200px;
+    height: auto;
+}
+
+.ferriswheelimg {
+  width: 200px;
+    height: auto;
+}
+
+.manneken img{
+  width: 200px;
+    height: auto;
+}
+.installation img{
+  width: 200px;
+     height: auto;
+} 
+
+.desc {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  max-width: 200px;
+  background-color: lightgrey;
+  color: black;
+  padding: 10px;
+  } 
+  
