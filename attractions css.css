@@ -1,46 +1,75 @@
 
 .gallery {
-  padding: 300px;
+  padding: 250px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .fountain img {
-  width: 200px;
+  width: 250px;
     height: auto;
 }
 
 .palace img {
-  width: 200px;
+  width: 250px;
     height: auto;
 }
 
 .building img {
-  width: 200px;
+  width: 250px;
     height: auto;
 }
 
 .ferriswheelimg {
-  width: 200px;
+  width: 250px;
     height: auto;
 }
 
 .manneken img{
-  width: 200px;
+  width: 250px;
     height: auto;
 }
 .installation img{
-  width: 200px;
+  width: 250px;
      height: auto;
 } 
 
 .desc {
   font-family: "lato", sans-serif;
   font-size: 16px;
-  max-width: 200px;
+  max-width: 250px;
   background-color: lightgrey;
   color: black;
   padding: 10px;
   } 
   
+.fountain img:hover {
+  opacity: 80%;
+}
+
+.building img:hover {
+  opacity: 80%;
+}
+
+.palace img:hover  {
+  opacity: 80%;
+}
+
+ .ferriswheelimg:hover {
+  opacity: 80%;
+}
+
+.manneken img:hover {
+  opacity: 80%;
+}
+.ferriswheelimg:hover {
+  opacity: 80%;
+}
+
+.installation img:hover {
+  opacity: 80%;
+}
+.desc:hover {
+   font-size: 110%;
+}
