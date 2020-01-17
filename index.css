@@ -28,6 +28,10 @@ section {
 ::before {
   box-sizing: border-box;
 }
+.carousel-inner {
+  width: 100%;
+  max-height: 700px !important;
+}
 
 body {
   padding-top: 3rem;
@@ -37,9 +41,7 @@ body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -58,3 +60,75 @@ body {
 ::before {
   box-sizing: border-box;
 }
+
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.maps {
+  height: 450px;
+}
+
+.maps > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#contatti {
+  letter-spacing: 2px;
+}
+#contatti a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* @media (max-width: 575.98px) {
+  #contatti {
+    padding-bottom: 800px;
+  }
+  #contatti .maps iframe {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media (min-width: 576px) {
+  #contatti {
+    padding-bottom: 800px;
+  }
+
+  #contatti .maps iframe {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contatti {
+    padding-bottom: 350px;
+  }
+
+  #contatti .maps iframe {
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti {
+    padding-bottom: 200px;
+  }
+} */
