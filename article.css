@@ -1,4 +1,6 @@
-
+.navbar-brand {
+  font-size: xx-large;
+}
 body
 {
 	margin: 0;
