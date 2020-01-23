@@ -1,3 +1,6 @@
+.navbar-brand {
+  font-size: xx-large;
+}
 .selector-for-some-widget {
   box-sizing: content-box;
 }
@@ -8,21 +11,7 @@
 .navbar-toggler {
   color: black;
 }
-main {
-  display: block;
-}
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-  display: block;
-}
+
 *,
 ::after,
 ::before {
@@ -33,11 +22,11 @@ section {
   max-height: 700px !important;
 }
 
-body {
+/* body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-}
+} */
 
 body {
   margin: 0;
@@ -132,3 +121,10 @@ div {
     padding-bottom: 200px;
   }
 } */
+
+.mdb-color.darken-3 {
+  background-color: #343a40 !important;
+}
+  .documentation footer {
+    padding-left: 0;
+}
