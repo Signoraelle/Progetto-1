@@ -1,4 +1,6 @@
-
+.navbar-brand {
+  font-size: xx-large;
+}
 body
 {
 	margin: 0;
@@ -90,3 +92,11 @@ p {
 }
 
 .card{margin-top: 50px;}
+
+.mdb-color.darken-3 {
+  background-color: #343a40 !important;
+}
+  .documentation footer {
+    padding-left: 0;
+}
+

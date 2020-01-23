@@ -1,6 +1,9 @@
-
-h2 {
-  margin-top: 60px;
+.navbar-brand {
+  font-size: xx-large;
+}
+h4{
+  margin-top: 120px;
+  margin-bottom: 30px;
 }
 
 .news {
@@ -30,4 +33,10 @@ h2 {
 
 .news:hover .desc {
   font-weight: bold;
+}
+.mdb-color.darken-3 {
+  background-color: #343a40 !important;
+}
+  .documentation footer {
+    padding-left: 0;
 }
