@@ -43,25 +43,34 @@ p {
   z-index: 10;
   margin-top: 40px;
 }
+
+.images_box {
+  background:url("./assets/img/marathon.jpg") no-repeat center center/cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:400px;
+}
+
 .image_text{
   font-size: 50px;
   color: #FFFFFF;
-  font-weight: 600;
-  margin-top: 19px;
-  position: absolute;
-  top: 59%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  max-width: 440px;
-  text-align: center;
+  font-weight: 600;  
+}
 
+.overlay {
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-color:rgba(0,0,0,0.4
+);
+  height:100%;
 }
-.row {margin-bottom: 30px;
-}
+
+/* .row {margin-bottom: 30px;
+} */
 
 
 .col-log-9 {

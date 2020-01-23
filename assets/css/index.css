@@ -22,11 +22,7 @@
   max-height: 700px !important;
 }
 
-/* body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-} */
+
 
 body {
   margin: 0;
@@ -73,7 +69,7 @@ div {
 
 .maps > iframe {
   width: 100%;
-  height: 100%;
+  height: 75%;
 }
 
 #contatti {
