@@ -2,7 +2,10 @@
   font-size: xx-large;
 }
 
-
+h4{
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
 .news {
   margin-bottom: 1rem;
   color: rgb(8, 43, 78);
